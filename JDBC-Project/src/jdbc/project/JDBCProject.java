@@ -18,13 +18,15 @@ public class JDBCProject {
         Mahasiswa mhs4 = new Mahasiswa("2117051044", "Rafi Ramadhan");
         Mahasiswa mhs5 = new Mahasiswa("2117051066", "Faiz Muzaki");
         
+        Mahasiswa mhs6 = new Mahasiswa("2117051066", "Rizqi Ibadurrohman");
+        
         
         mhs.addMahasiswa(mhs2);
 //        mhs.addMahasiswa(mhs3);
 //        mhs.addMahasiswa(mhs4);
 //        mhs.addMahasiswa(mhs5);
-//        mhs.deleteMahasiswa(mhs2);
-//        mhs.updateMahasiswa(mhs3);
+        mhs.deleteMahasiswa(mhs3);
+        mhs.updateMahasiswa(mhs6);
         
         ArrayList<Mahasiswa> listMahasiswa = mhs.getMahasiswa();
         
